@@ -1,5 +1,5 @@
 demo:
-  message:  hello-hot-$(date +%H%M%S)
+  message:  hello-hot-2307
 
 management:
   endpoints:
