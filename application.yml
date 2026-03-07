@@ -1,3 +1,6 @@
+demo:
+  message: hello-from-config-server
+
 management:
   endpoints:
     web:
