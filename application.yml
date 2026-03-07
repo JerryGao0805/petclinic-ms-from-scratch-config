@@ -1,5 +1,5 @@
 demo:
-  message: hello-from-config-server
+  message:  hello-hot-$(date +%H%M%S)
 
 management:
   endpoints:
