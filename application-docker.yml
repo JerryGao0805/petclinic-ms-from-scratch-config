@@ -2,8 +2,15 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,refresh
+        include: health,refresh,info
   endpoint:
     health:
       probes:
         enabled: true
+  info:
+    git:
+      mode: simple
+
+info:
+  config:
+    version: ${config.client.version:unknown}
