@@ -2,7 +2,15 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,refresh,info
+        include: health,refresh,info,prometheus
+  metrics:
+    tags:
+      application: ${spring.application.name}
+    distribution:
+      percentiles-histogram:
+        http:
+          server:
+            requests: true
   endpoint:
     health:
       probes:
