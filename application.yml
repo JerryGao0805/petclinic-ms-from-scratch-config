@@ -1,5 +1,5 @@
 demo:
-  message:  hello-hot-2308
+  message:  hello-from-config-server
 
 management:
   endpoints:
