@@ -8,6 +8,8 @@ management:
       probes:
         enabled: true
   info:
+    env:
+      enabled: true
     git:
       mode: simple
 
